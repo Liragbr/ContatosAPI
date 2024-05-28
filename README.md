@@ -13,7 +13,9 @@ Esta é uma API para gerenciamento de contatos, construída com ASP.NET Core uti
 
 - `Microsoft.EntityFrameworkCore.Tools`
 - `Microsoft.EntityFrameworkCore.SqlServer`
+- `Microsoft.EntityFrameworkCore.Desing`
 - `Microsoft.EntityFrameworkCore`
+
 ## Utilização
 
 Certifique-se de ter o .NET Core SDK instalado. Para rodar a API localmente, execute os seguintes comandos no terminal:
