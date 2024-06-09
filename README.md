@@ -1,24 +1,25 @@
-## 📞 API de Contatos
+## 📞 Contacts API
 
-Esta é uma API para gerenciamento de contatos, construída com ASP.NET Core utilizando o Entity Framework Core, com interligação com o banco de dados hospedado no SQL Server 2022 Manager.
+This is an API for contact management, built with ASP.NET Core using Entity Framework Core, connected to a database hosted on SQL Server 2022 Manager.
 
-## Rotas da API
+## API Routes
 
-- `GET api/contatos`: Retorna uma lista de todos os contatos.
-- `GET api/contatos/{id}`: Retorna um contato específico com base no ID fornecido.
-- `POST api/contatos`: Adiciona um novo contato.
-- `PUT api/contatos`: Atualiza as informações de um contato existente.
-- `DELETE api/contatos/{id}`: Remove um contato com base no ID fornecido.
-## Ferramentas
+- `GET api/contacts`: Returns a list of all contacts.
+- `GET api/contacts/{id}`: Returns a specific contact based on the provided ID.
+- `POST api/contacts`: Adds a new contact.
+- `PUT api/contacts`: Updates the information of an existing contact.
+- `DELETE api/contacts/{id}`: Removes a contact based on the provided ID.
+
+## Tools
 
 - `Microsoft.EntityFrameworkCore.Tools`
 - `Microsoft.EntityFrameworkCore.SqlServer`
-- `Microsoft.EntityFrameworkCore.Desing`
+- `Microsoft.EntityFrameworkCore.Design`
 - `Microsoft.EntityFrameworkCore`
 
-## Utilização
+## Usage
 
-Certifique-se de ter o .NET Core SDK instalado. Para rodar a API localmente, execute os seguintes comandos no terminal:
+Ensure that you have the .NET Core SDK installed. To run the API locally, execute the following commands in the terminal:
 ```
 dotnet restore
 ```
